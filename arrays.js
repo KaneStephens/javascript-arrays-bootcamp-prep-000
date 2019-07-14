@@ -35,5 +35,9 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   return array
 }
 
-
+function destructivelyAddElementToBeginningOfArray(array, element){
+  array.shift()
+  array.unshift(element)
+  return array
+}
 
