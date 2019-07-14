@@ -15,4 +15,8 @@ function accessElementInArray(array, index){
 return array[index]
 }
 
-function removeElementFromEndOfArray
+function removeElementFromEndOfArray(array){
+  var myArray = array.slice(0, array.length - 1)
+  return myArray
+}
+
