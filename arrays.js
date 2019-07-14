@@ -10,3 +10,7 @@ function addElementToEndOfArray(Array, Element) {
   var editedArray = [...Array, Element]
   return editedArray
 }
+
+function accessElementInArray(array, index){
+return array[index]
+}
