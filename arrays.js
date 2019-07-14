@@ -14,3 +14,4 @@ function addElementToEndOfArray(Array, Element) {
 function accessElementInArray(array, index){
 return array[index]
 }
+
