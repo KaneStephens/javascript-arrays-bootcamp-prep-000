@@ -12,12 +12,19 @@ function addElementToEndOfArray(Array, Element) {
   return editedArray
 }
 
+
+
+
+
 function destructivelyAddElementToBeginningOfArray(array, element){
   array.shift()
   var editedArray = [element, ...array]
-  array = editedArray
-  return array
+  return editedarray
 }
+
+
+
+
 
 function accessElementInArray(array, index){
 return array[index]
