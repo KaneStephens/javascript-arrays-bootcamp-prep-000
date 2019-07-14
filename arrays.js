@@ -37,7 +37,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 
 function destructivelyAddElementToBeginningOfArray(array, element){
   array.shift()
-  var editedArray = [element, ...array]
-  return editedArray
+  array.unshift(element)
+  return array
 }
 
