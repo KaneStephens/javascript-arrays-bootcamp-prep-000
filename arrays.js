@@ -1,13 +1,13 @@
 
 var chocolateBars = ["Snickers", "Hundred Grand", "Kitkat", "Skittles"];
 
-function addElementToBeginningOfArray(Array, Element) {
-  var editedArray = [Element, ...Array]
+function addElementToBeginningOfArray(array, element) {
+  var editedArray = [element, ...array]
   return editedArray
 }
 
-function addElementToEndOfArray(Array, Element) {
-  var editedArray = [...Array, Element]
+function addElementToEndOfArray(array, element) {
+  var editedArray = [...array, element]
   return editedArray
 }
 
@@ -24,4 +24,5 @@ function removeElementFromBeginningOfArray(array){
   var myArray = array.slice(1)
   return myArray
 }
+
 
