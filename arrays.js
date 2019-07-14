@@ -13,8 +13,10 @@ function addElementToEndOfArray(Array, Element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-  var pleaseWork = array
-  
+  array.shift()
+  var editedArray = [element, ...array]
+  array = editedArray
+  return array
 }
 
 function accessElementInArray(array, index){
