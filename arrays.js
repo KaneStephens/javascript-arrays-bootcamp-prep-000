@@ -37,7 +37,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 
 function destructivelyAddElementToBeginningOfArray(array, element){
   array.shift()
-  array.unshift(`$[element}`)
+  array.unshift(`${element}`)
   return array
 }
 
