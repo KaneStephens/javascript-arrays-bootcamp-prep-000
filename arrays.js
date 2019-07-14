@@ -20,3 +20,8 @@ function removeElementFromEndOfArray(array){
   return myArray
 }
 
+function removeElementFromBeginningOfArray(array){
+  var myArray = array.slice(1)
+  return myArray
+}
+
